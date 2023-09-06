@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5435,
+    "username": "postgres",
+    "password": "root",
+    "database": "pms_sunfocus",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "migrationsTableName": "migrations",
+    "migrations": ["dist/migrations/*.js"],
+    "cli": {
+        "migrationsDir": "migrations"
+        }
+}
